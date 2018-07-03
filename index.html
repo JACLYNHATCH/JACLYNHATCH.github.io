@@ -7,248 +7,190 @@
     <title>Jaclyn Hatch: A Digital Resume</title>
 
     <style type="text/css">
-        body {
-            font-family: "Courier New", Courier, monospace;
-            background: #9a3400;
-            background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a3400), color-stop(100%, #7db9e8));
-            background: -webkit-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
-            background: -o-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
-            background: -ms-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
-            background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
-            background-attachment: fixed;
-        }
+    body {
+        font-family: "Courier New", Courier, monospace;
+        background: #9a3400;
+        background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a3400), color-stop(100%, #7db9e8));
+        background: -webkit-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+        background: -o-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+        background: -ms-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+        background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
+        background-attachment: fixed;
+    }
 
-        .splash {
-            background-color: #855fa0;
-            border: 5px solid #855fa0;
-            margin: 0px;
-        }
+    .splash {
+        background-color: #855fa0;
+        border: 5px solid #855fa0;
+        margin: 0px;
+    }
 
-        .first_cell {
-            font-size: 11pt;
-            text-align: justified;
-            color: #85f55c;
-            background-color: #855fa0;
-            width: 76%;
-            padding: 12px;
-            border: 5px solid #85f55c;
-            margin: 0px;
-        }
+    .first_cell {
+        font-size: 11pt;
+        text-align: justified;
+        color: #85f55c;
+        background-color: #855fa0;
+        width: 76%;
+        padding: 12px;
+        border: 5px solid #85f55c;
+        margin: 0px;
+    }
 
-        .second_cell {
-            color: #a8642d;
-            font-size: 14pt;
-            text-align: left;
-            background-color: #f5cae3;
-            width: 76%;
-            border: 5px solid #a8642d;
-            margin: 0px;
-        }
+    .third_cell {
+        color: #ffffff;
+        font-size: 18pt;
+        text-align: left;
+        background-color: #473ebf;
+        width: 76%;
+        border: 5px solid #ffffff;
+        margin: 0px;
+        -ms-transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+    }
 
-        .third_cell {
-            color: #ffffff;
-            font-size: 18pt;
-            text-align: left;
-            background-color: #473ebf;
-            width: 76%;
-            border: 5px solid #ffffff;
-            margin: 0px;
-            -ms-transform: rotate(-3deg);
-            -webkit-transform: rotate(-3deg);
-            transform: rotate(-3deg);
-        }
+    .third_cell12 {
+        color: #473ebf;
+        font-size: 18pt;
+        text-align: left;
+        background-color: #ffffff;
+        width: 76%;
+        border: 5px solid #473ebf;
+        margin: 0px;
+    }
 
-        .third_cell12 {
-            color: #473ebf;
-            font-size: 18pt;
-            text-align: left;
-            background-color: #ffffff;
-            width: 76%;
-            border: 5px solid #473ebf;
-            margin: 0px;
-        }
+    div.third_cell2 {
+        border: 5px solid #fe5dbd;
+        margin: 0px;
+        -ms-transform: rotate(3deg);
+        -webkit-transform: rotate(3deg);
+        transform: rotate(3deg);
+    }
 
-        div.third_cell2 {
-            border: 5px solid #fe5dbd;
-            margin: 0px;
-            -ms-transform: rotate(3deg);
-            -webkit-transform: rotate(3deg);
-            transform: rotate(3deg);
-        }
+    .fifth_cell {
+        color: #ff8f47;
+        font-size: 80%;
+        background-color: #ff8f47;
+        border: 5px solid #626262;
+        width: 76%;
+        margin: 0px;
+    }
 
-        .third_cell3 {
-            width: 76%;
-            border: 0px solid #ffffff;
-            margin: 0px;
-            -ms-transform: rotate(-2deg);
-            -webkit-transform: rotate(-2deg);
-            transform: rotate(-2deg);
-        }
+    .fifth_cell2 {
+        padding: 95px;
+        color: #ff8f47;
+        font-size: 18pt;
+        background-color: #626262;
+        border: 5px solid #ff8f47;
+        margin: 0px;
+    }
 
-        .fourth_cell {
-            font-size: 18pt;
-            text-align: left;
-            color: #fecccd;
-            background-color: #fd6769;
-            width: 76%;
-            padding: 25px;
-            border: 5px solid #fecccd;
-            margin: 0px;
-        }
+    .fifth_cell3 {
+        font-size: 22pt;
+        color: #ff8f47;
+        text-shadow: 1px 1px 3px #424242;
+    }
 
-        .fifth_cell {
-            color: #ff8f47;
-            font-size: 80%;
-            background-color: #ff8f47;
-            border: 5px solid #626262;
-            width: 76%;
-            margin: 0px;
-        }
+    .caption_text {
+        font-size: 10pt;
+        color: #ffb9e2;
+        text-align: right;
+        font-style: italic;
+        font-weight: bold;
+    }
 
-        .fifth_cell2 {
-            padding: 95px;
-            color: #ff8f47;
-            font-size: 18pt;
-            background-color: #626262;
-            border: 5px solid #ff8f47;
-            margin: 0px;
-        }
+    a.caption_text:link {
+        text-decoration: underline;
+        color: #ffb9e2;
+    }
 
-        .fifth_cell3 {
-            font-size: 22pt;
-            color: #ff8f47;
-            text-shadow: 1px 1px 3px #424242;
-        }
+    a.caption_text:visited {
+        color: #ffb9e2;
+    }
 
-        .caption_text {
-            font-size: 10pt;
-            color: #ffb9e2;
-            text-align: right;
-            font-style: italic;
-            font-weight: bold;
-        }
+    a.caption_text:hover {
+        color: #fecdfe;
+    }
 
-        a.caption_text:link {
-            text-decoration: underline;
-            color: #ffb9e2;
-        }
+    .caption_text2 {
+        font-size: 9pt;
+        color: #ffb9e2;
+        font-style: italic;
+    }
 
-        a.caption_text:visited {
-            color: #ffb9e2;
-        }
+    .caption_text2x {
+        font-size: 12pt;
+        color: #ffb9e2;
+        font-style: italic;
+    }
 
-        a.caption_text:hover {
-            color: #fecdfe;
-        }
+    .welcome_text {
+        font-size: 22pt;
+        color: #ffffff;
+    }
 
-        .caption_text2 {
-            font-size: 9pt;
-            color: #ffb9e2;
-            font-style: italic;
-        }
+    a.welcome_text:link {
+        text-decoration: none;
+        color: #ffffff;
+    }
 
-        .caption_text2x {
-            font-size: 12pt;
-            color: #ffb9e2;
-            font-style: italic;
-        }
-
-        .caption_text3 {
-            font-size: 9pt;
-            color: #ffffff;
-            font-style: italic;
-        }
-
-        .welcome_text {
-            font-size: 22pt;
-            color: #ffffff;
-        }
-
-        .welcome_textx {
-            font-size: 22pt;
-            color: #ffffff;
-            text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
-        }
-
-        a.welcome_text:link {
-            text-decoration: none;
-            color: #ffffff;
-        }
-
-        a.welcometext:visited {
-            color: #ffffff;
-        }
-
-        a.welcome_text:hover {
-            color: #fe5dbd;
-        }
+    a.welcome_text:hover {
+        color: #fe5dbd;
+    }
 
 
-        .welcome_text1 {
-            font-size: 22pt;
-            text-shadow: 0 0 3px #b280d6, 1px 1px 3px #fe5dbd;
-            color: #85f55c;
-        }
+    .welcome_text1 {
+        font-size: 22pt;
+        text-shadow: 0 0 3px #b280d6, 1px 1px 3px #fe5dbd;
+        color: #85f55c;
+    }
 
-        a.first:link {
-            text-decoration: underline;
-            color: #85f55c;
-        }
+    a.first:link {
+        text-decoration: underline;
+        color: #85f55c;
+    }
 
-        a.first:visited {
-            color: #fe5dbd;
-        }
+    a.first:visited {
+        color: #fe5dbd;
+    }
 
-        a.first:hover {
-            color: #b280d6;
-        }
+    a.first:hover {
+        color: #b280d6;
+    }
 
-        .footer_text {
-            font-size: 11pt;
-            color: #b84139;
-        }
+    .footer_text {
+        font-size: 11pt;
+        color: #b84139;
+    }
 
-        h1 {
-            font-size: 26pt;
-            text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
-            color: #85f55c;
-        }
+    h1 {
+        font-size: 26pt;
+        text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
+        color: #85f55c;
+    }
 
-        h2 {
-            font-size: 24pt;
-            text-shadow: 0 0 2px #4c8ffe, 1 1 5px #b280d6;
-            color: #85f55c;
-        }
+    p {
+        padding: 20px;
+    }
 
-        p {
-            padding: 20px;
-        }
+    .intro {
+        text-align: right;
+        font-family: "Courier New", Courier, monospace;
+    }
 
-        div.playlist_img {
-            -ms-transform: rotate(4deg);
-            -webkit-transform: rotate(4deg);
-            transform: rotate(4deg);
-        }
+    .intro1 {
+        text-align: left;
+    }
 
-        .intro {
-            text-align: right;
-            font-family: "Courier New", Courier, monospace;
-        }
+    .intro h1 {
+        font-size: 14px;
+    }
 
-        .intro1 {
-            text-align: left;
-        }
-
-        .intro h1 {
-            font-size: 14px;
-        }
-
-        .intro h1 strong {
-            font-size: 26px;
-            font-family: "Courier New", Courier, monospace;
-        }
+    .intro h1 strong {
+        font-size: 26px;
+        font-family: "Courier New", Courier, monospace;
+    }
     </style>
 </head>
 
