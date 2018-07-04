@@ -34,7 +34,7 @@ html {
     background-attachment: fixed;
 }
 body {
-    font-family: "Hack", "Courier New", Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     margin: 0 auto;
     width: 78%;
 }
@@ -138,7 +138,7 @@ section.interview .interview-text {
     text-align: justified;
     color: #85f55c;
     background-color: #855fa0;
-    padding: 24px;
+    padding: 42px;
     border: 5px solid #85f55c;
     margin: 0px;
 }
