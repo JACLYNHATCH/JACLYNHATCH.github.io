@@ -143,6 +143,10 @@ section.interview .interview-text {
     margin: 0px;
 }
 
+section.interview .interview-text a {
+    color: inherit;
+}
+
 section.interview .question {
     margin-top: 1em;
     font-weight: bold;
