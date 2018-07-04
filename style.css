@@ -34,7 +34,7 @@ html {
     background-attachment: fixed;
 }
 body {
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Hack", "Courier New", Courier, monospace;
     margin: 0 auto;
     width: 78%;
 }
@@ -197,9 +197,10 @@ section.workstation .workstation-image {
 }
 
 section.workstation .explanation {
-    text-align: right;
-    font-style: italic;
-}
+    text-align:     right;  
+    font-style: italic; 
+    padding-bottom: 8em;
+}   
 
 section.pitch {
     padding: 95px;
@@ -295,6 +296,7 @@ section.video-portfolio .explanation {
     display: inline-flex;
     flex-direction: column;
     width: 50%;
+    padding: 1em;
 }
 
 section.video-portfolio .explanation h2 {
@@ -311,6 +313,7 @@ section.video-portfolio .explanation p {
 
 section.video-portfolio .explanation .available {
     text-decoration: underline;
+    padding: 1em;
 }
 
 section.video-portfolio .portfolio-image {
