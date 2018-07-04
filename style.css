@@ -1,3 +1,9 @@
+/* define font face for code new roman */
+@font-face {
+    font-family: "Code New Roman";
+    src: url("Code New Roman.woff");
+}
+
 /* media queries */
 @media screen and (max-width: 539px) {
 
@@ -353,6 +359,111 @@ section.video-portfolio .portfolio-image {
 
 section.video-portfolio .portfolio-image img {
     border: 5px solid #fe5dbd;
+}
+
+/* resume styles */
+ul.education {
+    list-style-type: none;  
+    padding-left: none;
+    padding-left: 0;
+}
+
+ul.education li {
+    padding-left: 2em;
+}
+
+ul.education li .title {
+    font-weight: bold;
+}
+
+ul.education li .completion,
+ul.education li .program {
+    font-style: italic;
+}
+
+ul.education li:first-of-type {
+    padding-left: 0;
+    padding-bottom: 1em;
+}
+
+ul.experience {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.experience .title {
+    text-transform: uppercase;
+}
+
+ul.experience li .job {
+    font-weight: bold;
+}
+
+ul.experience li .position {
+    font-style: italic;
+}
+
+ul.experience li .date {
+    font-style: italic;
+}
+
+ul.experience > li {
+    padding-bottom: 1em;
+}
+
+ul.experience ul.duties {
+    list-style-type: disc;
+    padding-left: 1em;
+}
+
+section > h2 {
+    text-transform: uppercase;
+    margin-bottom: 0.45em;
+}
+
+.resume-header {
+    text-align: right;
+}
+
+div.resume {
+    font-family: "Code New Roman";
+
+    margin: 4em 4em;
+}
+
+div.resume hr {
+    width: 100%;
+    border-width: 0;
+}
+
+div.resume hr::before {
+    width: 100%;
+    display: block;
+    position: relative;
+    content: ' ';
+    height: 5px;
+    background-color: #fff;
+}
+
+div.resume .resume-header .contact p {
+    margin: 0;
+}
+
+div.resume .resume-header .contact p.name {
+    font-weight: bold;
+    font-size: 1.65em;
+}
+
+div.resume .resume-header .contact p.email {
+    font-style: italic;
+}
+
+div.resume .resume-header .contact p.phone a {
+    font-style: italic;
+}
+
+div.resume .resume-header .contact span.location {
+    font-style: italic;
 }
 
 /* footer */
