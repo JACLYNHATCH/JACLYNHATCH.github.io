@@ -22,8 +22,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-family: "Courier New", Courier, monospace;
+html {
     background: #9a3400;
     background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a3400), color-stop(100%, #7db9e8));
@@ -33,6 +32,9 @@ body {
     background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
     background-attachment: fixed;
+}
+body {
+    font-family: "Courier New", Courier, monospace;
     margin: 0 auto;
     width: 78%;
 }
