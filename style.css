@@ -1,0 +1,327 @@
+/* media queries */
+@media screen and (max-width: 539px) {
+    section.video-portfolio {
+        flex-direction: column !important;
+    }
+
+    section.video-portfolio .explanation {
+        text-align: right;
+    }
+
+    section.pitch {
+        padding: 8px !important;
+    }
+}
+
+/* global styles */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: #9a3400;
+    background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a3400), color-stop(100%, #7db9e8));
+    background: -webkit-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -o-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -ms-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
+    background-attachment: fixed;
+
+    margin: 0 auto;
+    width: 78%;
+}
+
+/* header and contact information */
+header h1, header h2, header h3 {
+    color: #ffffff;
+    text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
+}
+header h1 {
+    font-size: 26pt;
+    color: #85f55c;
+}
+
+header .contact h4 {
+    font-size: 12pt;
+    color: #ffb9e2;
+    font-style: italic;
+}
+
+header {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+header .headline {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+header .headline h2 {
+    font-size: 22pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+header .contact h3.name {
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-bottom: 0.65em;
+}
+
+header .contact {
+    width: 50%;
+    padding-top: 7em;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+header .contact h3, header .contact h4 {
+    margin: 0;
+}
+
+/* content sections */
+section {
+    width: 100%;
+}
+
+section img {
+    display: flex;
+    width: 100%;
+}
+
+section.splash .splash-image {
+    background-color: #855fa0;
+    border: 5px solid #855fa0;
+    margin: 0px;
+}
+
+section.splash .explanation {
+    text-align: right;
+    font-style: italic;
+}
+
+.explanation {
+    font-size: 10pt;
+    color: #ffb9e2;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+section {
+    margin-top: 4em;
+}
+
+section.interview {
+    padding-top: 4em;
+}
+
+section.interview .interview-text {
+    font-size: 11pt;
+    text-align: justified;
+    color: #85f55c;
+    background-color: #855fa0;
+    padding: 12px;
+    border: 5px solid #85f55c;
+    margin: 0px;
+}
+
+section.interview .question {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+section.interview .emphasis {
+    text-decoration: underline;
+}
+
+section.interview div.answer:last-child {
+    padding-bottom: 2em;
+}
+
+section.interview .interview-text h2 {
+    font-size: 22pt;
+    text-shadow: 0 0 3px #b280d6, 1px 1px 3px #fe5dbd;
+    color: #85f55c;
+}
+
+section.interview .interview-text h5 {
+    font-size: 11pt;
+    text-align: justified;
+    color: #85f55c;
+    font-style: italic;
+    padding-bottom: 2em;
+}
+
+section.interview .question, section.interview .answer {
+    line-height: 1.5em;
+}
+
+section.interview .explanation {
+    font-style: italic;
+    text-align: right;
+}
+
+section.interview .explanation a {
+    font-weight: normal;
+    color: #ffb9e2;
+}
+
+section.workstation {
+    padding-top: 3em;
+    padding-bottom: 6em;
+}
+
+section.workstation .workstation-image {
+    color: #ff8f47;
+    background-color: #ff8f47;
+    border: 5px solid #626262;
+}
+
+section.workstation .explanation {
+    text-align: right;
+    font-style: italic;
+}
+
+section.pitch {
+    padding: 95px;
+    font-size: 22pt;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    color: #ff8f47;
+    text-shadow: 1px 1px 3px #424242;
+    background-color: #626262;
+    border: 5px solid #ff8f47;
+    margin: 0 auto;
+}
+
+section.pitch .pitch-text {
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+section.pitch .pitch-posted {
+    font-style: italic;
+}
+
+section.resume {
+    padding-top: 12em;
+}
+
+section.resume .download-link {
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+section.resume a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section.resume a {
+    color: #ffffff;
+}
+
+section.resume a:hover {
+    color: #fe5dbd;
+}
+
+section.resume .explanation {
+    font-size: 9pt;
+    color: #ffb9e2;
+    font-style: italic;
+}
+
+section.resume .resume-image {
+    color: #ffffff;
+    font-size: 18pt;
+    text-align: left;
+    background-color: #473ebf;
+    border: 5px solid #ffffff;
+    margin: 0px;
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+section.resume .resume-image {
+    width: 100%;
+}
+
+section.students .students-image {
+    color: #473ebf;
+    font-size: 18pt;
+    text-align: left;
+    background-color: #ffffff;
+    border: 5px solid #473ebf;
+    margin: 0px;
+}
+
+section.students .explanation {
+    font-size: 10pt;
+    color: #ffb9e2;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+section.video-portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.video-portfolio .explanation {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+section.video-portfolio .explanation h2 {
+    color: white;
+    padding-top: 2em;
+    font-size: 22pt;
+}
+
+section.video-portfolio .explanation p {
+    font-size: 12pt;
+    color: #ffb9e2;
+    font-style: italic;
+}
+
+section.video-portfolio .explanation .available {
+    text-decoration: underline;
+}
+
+section.video-portfolio .portfolio-image {
+    border: 5px solid #fe5dbd;
+    margin: 0px;
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    width: 307px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    font-size: 11pt;
+    color: #b84139;
+    font-style: italic;
+    font-weight: bold;  
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
