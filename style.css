@@ -240,7 +240,7 @@ section.pitch .pitch-posted {
 }
 
 section.resume {
-    padding-top: 12em;
+    padding-top: 9em;
 }
 
 section.resume .download-link {
@@ -281,6 +281,10 @@ section.resume .resume-image {
 
 section.resume .resume-image {
     width: 100%;
+}
+
+section.students {
+    padding-top: 2em;
 }
 
 section.students .students-image {
