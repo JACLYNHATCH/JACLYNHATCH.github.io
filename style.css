@@ -3,11 +3,9 @@
     section.video-portfolio {
         flex-direction: column !important;
     }
-
     section.video-portfolio .explanation {
         text-align: right;
     }
-
     section.pitch {
         padding: 8px !important;
     }
@@ -18,7 +16,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -33,16 +33,19 @@ body {
     background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
     background-attachment: fixed;
-
     margin: 0 auto;
     width: 78%;
 }
 
 /* header and contact information */
-header h1, header h2, header h3 {
+
+header h1,
+header h2,
+header h3 {
     color: #ffffff;
     text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
 }
+
 header h1 {
     font-size: 26pt;
     color: #85f55c;
@@ -87,7 +90,8 @@ header .contact {
     text-align: right;
 }
 
-header .contact h3, header .contact h4 {
+header .contact h3,
+header .contact h4 {
     margin: 0;
 }
 
@@ -164,7 +168,8 @@ section.interview .interview-text h5 {
     padding-bottom: 2em;
 }
 
-section.interview .question, section.interview .answer {
+section.interview .question,
+section.interview .answer {
     line-height: 1.5em;
 }
 
@@ -321,7 +326,7 @@ footer {
     font-size: 11pt;
     color: #b84139;
     font-style: italic;
-    font-weight: bold;  
+    font-weight: bold;
     margin-top: 4em;
     margin-bottom: 2em;
 }
