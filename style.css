@@ -19,9 +19,9 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
     div.resume {
-        font-size: 0.85vw !important;
+        font-size: 0.975vw !important;
     }
 }
 
@@ -51,6 +51,24 @@ body {
     font-family: "Courier New", Courier, monospace;
     margin: 0 auto;
     width: 70%;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 12px;
+    background: #9a3400;
+    background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a3400), color-stop(100%, #7db9e8));
+    background: -webkit-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -o-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -ms-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #ff5ebf;
+    outline: 1px solid #708090;
 }
 
 /* header and contact information */
@@ -342,11 +360,20 @@ section.video-portfolio .explanation h2 {
     padding: 20px;
 }
 
+section.video-portfolio .explanation h2 {
+    font-size: 2.5vw;
+}
+
 section.video-portfolio .explanation p {
     font-size: 12pt;
     color: #ffb9e2;
     font-style: italic;
     padding: 30px;
+    padding-top: 15px;
+}
+
+section.video-portfolio .explanation p {
+    font-size: 1.35vw;
 }
 
 section.video-portfolio .explanation .available {
@@ -364,6 +391,11 @@ section.video-portfolio .portfolio-image {
 
 section.video-portfolio .portfolio-image img {
     border: 5px solid #fe5dbd;
+    margin: 20px 20px;
+}
+
+section.video-portfolio > div.explanation {
+    font-size: 1vw;
 }
 
 /* resume styles */
@@ -478,16 +510,30 @@ div.resume {
 .aspect-ratio-box {
     height: 0;
     overflow: hidden;
-    padding-top: calc(400 / 300 * 100%);
+    padding-top: calc(500 / 400 * 100%);
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.255);
 }
 
 .aspect-ratio-box-inside {
     position: absolute;
+    overflow-y: auto;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.aspect-ratio-box ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 5px;
+    background-color: #473ebf;
+}
+ 
+.aspect-ratio-box ::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #1f198f;
+    outline: 1px solid #708090;
 }
 
 /* footer */
