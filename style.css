@@ -207,7 +207,7 @@ section.interview div.answer:last-child {
 }
 
 section.interview .interview-text h2 {
-    font-size: 22pt;
+    font-size: 2vw; 
     text-shadow: 0 0 3px #b280d6, 1px 1px 3px #fe5dbd;
     color: #85f55c;
 }
