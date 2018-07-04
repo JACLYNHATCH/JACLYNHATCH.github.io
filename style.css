@@ -53,7 +53,7 @@ body {
     width: 70%;
 }
 
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 12px;
     background: #9a3400;
@@ -65,7 +65,7 @@ body {
     background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
 }
  
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     border-radius: 0;
     background-color: #85f55c;
     outline: 1px solid #708090;
@@ -166,17 +166,31 @@ section.interview {
 }
 
 section.interview .interview-text {
-    font-size: 11pt;
+    font-size: 1.25vw;
     text-align: justified;
     color: #85f55c;
     background-color: #855fa0;
-    padding: 42px;
+    padding: 5vw;
     border: 5px solid #85f55c;
     margin: 0px;
 }
 
 section.interview .interview-text a {
     color: inherit;
+}
+
+@keyframes blinking {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1.0;
+    }
+}
+
+section.interview .interview-text .quod-erat-demonstrandum {
+    animation: blinking 0.5s infinite;
+    animation-direction: alternate;
 }
 
 section.interview .question {
@@ -249,8 +263,7 @@ section.workstation .explanation {
 }   
 
 section.pitch {
-    padding: 95px;
-    font-size: 22pt;
+    padding: 11.31337vw;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -260,6 +273,7 @@ section.pitch {
     background-color: #626262;
     border: 5px solid #ff8f47;
     margin: 0 auto;
+    font-size: 2vw;
 }
 
 section.pitch .pitch-text {
@@ -357,7 +371,10 @@ section.video-portfolio .explanation h2 {
     padding-top: 2em;
     font-weight: 700;
     font-size: 22pt;
-    padding: 20px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section.video-portfolio .explanation h2 {
@@ -391,7 +408,6 @@ section.video-portfolio .portfolio-image {
 
 section.video-portfolio .portfolio-image img {
     border: 5px solid #fe5dbd;
-    margin: 20px 20px;
 }
 
 section.video-portfolio > div.explanation {
@@ -527,12 +543,12 @@ div.resume {
 .aspect-ratio-box ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 5px;
-    background-color: #473ebf;
+    background-color: #473ebf !important;
 }
  
 .aspect-ratio-box ::-webkit-scrollbar-thumb {
     border-radius: 0;
-    background-color: #1f198f;
+    background-color: #1f198f !important;
     outline: 1px solid #708090;
 }
 
