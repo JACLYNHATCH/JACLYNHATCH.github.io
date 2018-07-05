@@ -11,7 +11,7 @@
     }
 
     header * {
-        font-size: 0.85em !important;
+        
     }
 
     section .explanation {
@@ -81,44 +81,43 @@ header h3 {
 }
 
 header h1 {
-    font-size: 26pt;
+    font-size: 3vw;
     color: #85f55c;
+    margin-top: 0;
 }
 
 header .contact h4 {
-    font-size: 12pt;
+    font-size: 2.25vw;
     color: #ffb9e2;
     font-style: italic;
 }
 
 header {
-    padding-top: 2em;
+    padding-top: 6em;
     display: flex;
     flex-direction: row;
 }
 
 header .headline {
-    padding-top: 5em;
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
 header .headline h2 {
-    font-size: 22pt;
+    font-size: 1.9vw;
     color: #ffffff;
     text-align: center;
 }
 
 header .contact h3.name {
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 2vw;
     padding-bottom: 0.65em;
 }
 
 header .contact {
     width: 50%;
-    padding-top: 7em;
     display: flex;
     flex-direction: column;
     text-align: right;
