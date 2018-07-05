@@ -201,11 +201,12 @@ section.interview .interview-text a {
 section.interview .interview-text .quod-erat-demonstrandum {
     animation: blinking 0.5s infinite;
     animation-direction: alternate;
+    /*
     display: inline-block;
     content: ' ';
     width: 0.7em;
     height: 0.7em;
-    background-color:  #85f55c;
+    background-color:  #85f55c;*/
 }
 
 section.interview .question {
