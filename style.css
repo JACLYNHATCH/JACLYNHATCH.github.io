@@ -20,6 +20,20 @@
     section .explanation {
         font-size: 0.6em !important;
     }
+
+    section.interview .interview-text {
+        font-size: 10px !important;        
+    }
+    .interview-text h2 {
+        font-size: 14px !important;
+    }
+    .interview-text h5 {
+        font-size: 12px !important;
+    }
+
+    section.pitch {
+        font-size: 10px !important;
+    }
 }
 
 @media screen and (max-width: 740px) {
@@ -166,7 +180,7 @@ section img:not(.yt-playlist) {
 
 section.splash .splash-image {
     background-color: #855fa0;
-    border: 3px solid #855fa0;
+    border: 5px solid #855fa0;
     margin: 0px;
 }
 
@@ -190,12 +204,12 @@ section.interview {
 }
 
 section.interview .interview-text {
-    font-size: 1.3vw;
+    font-size: 1vw;
     text-align: justified;
     color: #85f55c;
     background-color: #855fa0;
     padding: 5vw;
-    border: 3px solid #85f55c;
+    border: 5px solid #85f55c;
     margin: 0px;
 }
 
@@ -310,7 +324,7 @@ section.workstation {
 section.workstation .workstation-image {
     color: #ff8f47;
     background-color: #ff8f47;
-    border: 3px solid #626262;
+    border: 5px solid #626262;
 }
 
 section.workstation .explanation {
@@ -328,7 +342,7 @@ section.pitch {
     color: #ff8f47;
     text-shadow: 1px 1px 3px #424242;
     background-color: #626262;
-    border: 3px solid #ff8f47;
+    border: 5px solid #ff8f47;
     margin: 0 auto;
     font-size: 2vw;
 }
@@ -376,7 +390,7 @@ section.resume .resume-image {
     font-size: 18pt;
     text-align: left;
     background-color: #473ebf;
-    border: 3px solid #ffffff;
+    border: 5px solid #ffffff;
     margin: 0px;
     -ms-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
@@ -396,7 +410,7 @@ section.students .students-image {
     font-size: 18pt;
     text-align: left;
     background-color: #ffffff;
-    border: 3px solid #473ebf;
+    border: 5px solid #473ebf;
     margin: 0px;
 }
 
@@ -476,7 +490,7 @@ section.video-portfolio .portfolio-image {
 }
 
 section.video-portfolio .portfolio-image img {
-    border: 3px solid #fe5dbd;
+    border: 5px solid #fe5dbd;
 }
 
 section.video-portfolio > div.explanation {
