@@ -7,7 +7,7 @@
 /* media queries */
 @media screen and (max-width: 539px) {
     body {
-        width: 80% !important;
+        width: 85% !important;
     }
 
     section.pitch {
