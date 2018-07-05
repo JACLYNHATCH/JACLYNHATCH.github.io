@@ -143,7 +143,7 @@ header .bullet {
 h4.details i {
     animation: basicBounce 1s infinite;
 }
-.contact-location:hover i {
+h4.details:hover i {
     animation: bounce 2s infinite;
 }
 
