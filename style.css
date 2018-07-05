@@ -161,14 +161,14 @@ section {
     width: 100%;
 }
 
-section img {
+section img:not(.yt-playlist) {
     display: flex;
     width: 100%;
 }
 
 section.splash .splash-image {
     background-color: #855fa0;
-    border: 5px solid #855fa0;
+    border: 3px solid #855fa0;
     margin: 0px;
 }
 
@@ -197,7 +197,7 @@ section.interview .interview-text {
     color: #85f55c;
     background-color: #855fa0;
     padding: 5vw;
-    border: 5px solid #85f55c;
+    border: 3px solid #85f55c;
     margin: 0px;
 }
 
@@ -312,7 +312,7 @@ section.workstation {
 section.workstation .workstation-image {
     color: #ff8f47;
     background-color: #ff8f47;
-    border: 5px solid #626262;
+    border: 3px solid #626262;
 }
 
 section.workstation .explanation {
@@ -330,7 +330,7 @@ section.pitch {
     color: #ff8f47;
     text-shadow: 1px 1px 3px #424242;
     background-color: #626262;
-    border: 5px solid #ff8f47;
+    border: 3px solid #ff8f47;
     margin: 0 auto;
     font-size: 2vw;
 }
@@ -378,7 +378,7 @@ section.resume .resume-image {
     font-size: 18pt;
     text-align: left;
     background-color: #473ebf;
-    border: 5px solid #ffffff;
+    border: 3px solid #ffffff;
     margin: 0px;
     -ms-transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
@@ -398,7 +398,7 @@ section.students .students-image {
     font-size: 18pt;
     text-align: left;
     background-color: #ffffff;
-    border: 5px solid #473ebf;
+    border: 3px solid #473ebf;
     margin: 0px;
 }
 
@@ -415,8 +415,14 @@ section.video-portfolio {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: 70%;
     margin: 0 auto;
+}
+
+section.video-portfolio img.yt-playlist {
+    width: 100%;
+    height: auto;
 }
 
 section.video-portfolio .explanation {
@@ -467,7 +473,7 @@ section.video-portfolio .portfolio-image {
 }
 
 section.video-portfolio .portfolio-image img {
-    border: 5px solid #fe5dbd;
+    border: 3px solid #fe5dbd;
 }
 
 section.video-portfolio > div.explanation {
