@@ -428,6 +428,7 @@ section.video-portfolio .explanation {
     flex-direction: column;
     width: 50%;
     padding: 1em;
+    margin-left: -2em;
 }
 
 section.video-portfolio .explanation h2 {
@@ -442,7 +443,7 @@ section.video-portfolio .explanation h2 {
 }
 
 section.video-portfolio .explanation h2 {
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 section.video-portfolio .explanation p {
@@ -450,7 +451,9 @@ section.video-portfolio .explanation p {
     color: #ffb9e2;
     font-style: italic;
     padding: 30px;
-    padding-top: 15px;
+    padding-top: 1vw;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 section.video-portfolio .explanation p {
@@ -468,6 +471,8 @@ section.video-portfolio .portfolio-image {
     transform: rotate(3deg);
     width: auto;
     height: 100%;
+    position: relative;
+    left: 1em;
 }
 
 section.video-portfolio .portfolio-image img {
