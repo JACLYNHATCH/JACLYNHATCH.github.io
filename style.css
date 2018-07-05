@@ -132,8 +132,12 @@ header .contact {
 
 header .contact h4 {
     color: #ffb9e2;
-    font-style: italic;
     font-weight: normal;
+    font-style: italic;
+}
+
+header .bullet {
+    font-style: normal;
 }
 
 h4.details i {
