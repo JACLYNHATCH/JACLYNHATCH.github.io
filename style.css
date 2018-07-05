@@ -93,6 +93,18 @@ body::-webkit-scrollbar-thumb {
     outline: 1px solid #708090;
 }
 
+.pitch h4 {
+    font-weight: bold;
+    margin: inherit;
+    font-size: inherit;
+}
+
+.explanation h4 {
+    font-weight: inherit;
+    margin: inherit;
+    font-size: inherit;
+}
+
 /* header and contact information */
 header {
     font-size: 1.9vw;
