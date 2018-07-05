@@ -38,6 +38,10 @@
     section.video-portfolio div.explanation p {
         font-size: 10px !important;
     }
+
+    div.contact {
+        font-size: 1.15em !important;
+    }
 }
 
 @media screen and (max-width: 740px) {
