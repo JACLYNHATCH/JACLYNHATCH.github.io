@@ -43,12 +43,6 @@
     }
 }
 
-@media screen and (max-width: 740px) {
-    div.resume {
-        font-size: 0.975vw !important;
-    }
-}
-
 /* global styles */
 html {
     box-sizing: border-box;
@@ -429,6 +423,8 @@ section.pitch .pitch-posted {
 
 section.resume {
     padding-top: 4em;
+    width: 90%;
+    margin: 0 auto;
 }
 
 section.resume .download-link {
@@ -647,7 +643,7 @@ div.resume hr::before {
     display: block;
     position: relative;
     content: ' ';
-    height: 5px;
+    height: 0.3vw;
     background-color: #fff;
 }
 
@@ -673,7 +669,7 @@ div.resume .resume-header .resume-contact span.location {
 }
 
 div.resume {
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 .aspect-ratio-box {
