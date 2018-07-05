@@ -47,6 +47,25 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
     background-attachment: fixed;
 }
+
+body:after {
+    content: '';
+    position: fixed;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    z-index: -1;
+    background: #9a3400;
+    background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a3400), color-stop(100%, #7db9e8));
+    background: -webkit-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -o-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: -ms-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
+    background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
+}
+
 body {
     font-family: "Courier New", Courier, monospace;
     margin: 0 auto;
