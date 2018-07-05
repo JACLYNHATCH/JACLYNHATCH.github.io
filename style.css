@@ -135,7 +135,7 @@ header .contact h4 {
 h4.details i {
     animation: basicBounce 1s infinite;
 }
-h4.details:hover i {
+.contact-location:hover i {
     animation: bounce 2s infinite;
 }
 
