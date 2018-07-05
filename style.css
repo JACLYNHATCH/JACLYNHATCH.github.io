@@ -66,9 +66,12 @@ html {
     background-attachment: fixed;
 }
 
+html:after {
+    background-color: #ff5ebf; 
+}
+
 body {
     font-family: "Courier New", Courier, monospace;
-    margin: 0 0;
 }
 
 header.page,
