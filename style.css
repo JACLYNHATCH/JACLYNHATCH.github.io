@@ -6,6 +6,10 @@
 
 /* media queries */
 @media screen and (max-width: 539px) {
+    body {
+        width: 80% !important;
+    }
+
     section.pitch {
         padding: 32px !important;
     }
