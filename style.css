@@ -716,14 +716,14 @@ div.resume {
 }
 
 /* footer */
-footer {
+footer.page {
     text-align: center;
     font-size: 1.25vw;
     color: #b84139;
     font-style: italic;
     font-weight: bold;
-    margin-top: 4em;
-    margin-bottom: 2em;
+    margin-top: 8em;
+    margin-bottom: 1em;
 }
 
 /* balloon.css */
