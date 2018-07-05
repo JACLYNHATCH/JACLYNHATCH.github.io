@@ -73,6 +73,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* header and contact information */
+header {
+    font-size: 1.9vw;
+}
 
 header h1,
 header h2,
@@ -82,19 +85,29 @@ header h3 {
 }
 
 header h1 {
-    font-size: 3vw;
     color: #85f55c;
     margin-top: 0;
 }
 
+header .contact {
+    font-size: 0.8em;
+}
+
 header .contact h4 {
-    font-size: 2.25vw;
     color: #ffb9e2;
     font-style: italic;
+    font-weight: normal;
+}
+
+h4.details i {
+    animation: basicBounce 1s infinite;
+}
+h4.details:hover i {
+    animation: bounce 2s infinite;
 }
 
 header {
-    padding-top: 6em;
+    padding-top: 5em;
     display: flex;
     flex-direction: row;
 }
@@ -106,16 +119,15 @@ header .headline {
 }
 
 header .headline h2 {
-    font-size: 1.9vw;
     color: #ffffff;
     text-align: center;
 }
 
 header .contact h3.name {
     text-transform: uppercase;
-    font-size: 2vw;
     padding-bottom: 0.65em;
 }
+
 
 header .contact {
     width: 50%;
@@ -194,6 +206,33 @@ section.interview .interview-text a {
     }
     to {
         opacity: 1.0;
+    }
+}
+
+@keyframes basicBounce {
+    0% {
+        transform: translateX(0px) translateY(0px)
+    }    
+    25% {
+        transform: translateX(0px) translateY(1px)
+    }
+    50% {
+        transform: translateX(0px) translateY(0px)
+    }
+    75% {
+        transform: translateX(0px) translateY(-1px)
+    }
+    100% {
+        transform: translateX(0px) translateY(0px)
+    }
+}
+
+@keyframes bounce {
+    from {
+        transform: translateX(0) translateY(0)
+    }
+    to {
+        transform: translateX(30px) translateY(-30px)
     }
 }
 
