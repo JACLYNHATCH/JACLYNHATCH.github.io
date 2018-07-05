@@ -34,6 +34,10 @@
     section.pitch {
         font-size: 10px !important;
     }
+
+    section.video-portfolio div.explanation p {
+        font-size: 10px !important;
+    }
 }
 
 @media screen and (max-width: 740px) {
