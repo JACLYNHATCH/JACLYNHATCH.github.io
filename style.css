@@ -182,11 +182,11 @@ section {
 }
 
 section.interview {
-    padding-top: 3em;
+    padding-top: 1em;
 }
 
 section.interview .interview-text {
-    font-size: 1.25vw;
+    font-size: 1.3vw;
     text-align: justified;
     color: #85f55c;
     background-color: #855fa0;
@@ -299,8 +299,8 @@ section.interview .explanation a {
 }
 
 section.workstation {
-    padding-top: 2em;
-    padding-bottom: 4em;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
 }
 
 section.workstation .workstation-image {
@@ -312,7 +312,7 @@ section.workstation .workstation-image {
 section.workstation .explanation {
     text-align:     right;  
     font-style: italic; 
-    padding-bottom: 8em;
+    padding-bottom: 7em;
 }   
 
 section.pitch {
@@ -339,7 +339,7 @@ section.pitch .pitch-posted {
 }
 
 section.resume {
-    padding-top: 7em;
+    padding-top: 4em;
 }
 
 section.resume .download-link {
