@@ -158,6 +158,7 @@ header .headline {
 header .headline h2 {
     color: #ffffff;
     text-align: center;
+    text-shadow: none;
 }
 
 header .contact h3.name {
