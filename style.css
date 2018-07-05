@@ -152,7 +152,7 @@ a.phone {
 a.phone:hover i.fa-phone {
     opacity: 1;
     transform: translateX(0em);
-    transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+    transition: transform 0.1s ease-in, opacity 0.1s ease-in;
 }
 
 a.email i.fa-envelope {
@@ -167,11 +167,13 @@ a.email:hover i.fa-envelope {
     opacity: 1;
     transform: translateX(0em);
     color: white;
-    transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+    transition: transform 0.1s ease-in, opacity 0.1s ease-in;
 }
 
 h4.details i.fa-plane {
     animation: basicBounce 1s infinite;
+    top: 3px;
+    position: relative;
 }
 
 span.contact-location:hover i.fa-plane {
@@ -288,13 +290,25 @@ section.interview .interview-text a {
     0% {
         transform: translateX(0px) translateY(0px)
     }    
+    12.5% {
+        transform: translateX(0px) translateY(1px)
+    }
     25% {
+        transform: translateX(0px) translateY(2px)
+    }
+    37.5% {
         transform: translateX(0px) translateY(1px)
     }
     50% {
         transform: translateX(0px) translateY(0px)
     }
+    62.5% {
+        transform: translateX(0px) translateY(-1px)
+    }
     75% {
+        transform: translateX(0px) translateY(-2px)
+    }
+    87.5% {
         transform: translateX(0px) translateY(-1px)
     }
     100% {
@@ -399,7 +413,7 @@ section.workstation .explanation {
 }   
 
 section.pitch {
-    padding: 11.31337vw;
+    padding: 12.31337vw;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -409,7 +423,7 @@ section.pitch {
     background-color: #626262;
     border: 5px solid #ff8f47;
     margin: 0 auto;
-    font-size: 2vw;
+    font-size: 2.15vw;
 }
 
 section.pitch .pitch-text {
