@@ -14,7 +14,7 @@
     }
 
     section .explanation {
-        font-size: 0.5em !important;
+        font-size: 0.6em !important;
     }
 }
 
@@ -188,7 +188,7 @@ section {
 }
 
 section.interview {
-    padding-top: 4em;
+    padding-top: 3em;
 }
 
 section.interview .interview-text {
@@ -305,8 +305,8 @@ section.interview .explanation a {
 }
 
 section.workstation {
-    padding-top: 3em;
-    padding-bottom: 6em;
+    padding-top: 2em;
+    padding-bottom: 4em;
 }
 
 section.workstation .workstation-image {
@@ -345,7 +345,7 @@ section.pitch .pitch-posted {
 }
 
 section.resume {
-    padding-top: 9em;
+    padding-top: 7em;
 }
 
 section.resume .download-link {
@@ -369,6 +369,8 @@ section.resume a:hover {
 section.resume .explanation {
     color: #ffb9e2;
     font-style: italic;
+    margin-top: 0;
+    padding-bottom: 2em;
 }
 
 section.resume .resume-image {
