@@ -129,6 +129,16 @@ header .contact h4 {
     margin: 0;
 }
 
+header .contact a.phone {
+    text-decoration: none;
+    color: #ffb9e2;
+}
+
+header .contact a.phone:hover,
+header .contact a.phone:active {
+    color: #b280d6;
+}
+
 /* content sections */
 section {
     width: 100%;
@@ -151,7 +161,7 @@ section.splash .explanation {
 }
 
 .explanation {
-    font-size: 10pt;
+    font-size: 1.25vw;
     color: #ffb9e2;
     font-weight: bold;
     margin-top: 12px;
@@ -191,6 +201,11 @@ section.interview .interview-text a {
 section.interview .interview-text .quod-erat-demonstrandum {
     animation: blinking 0.5s infinite;
     animation-direction: alternate;
+    display: inline-block;
+    content: ' ';
+    width: 0.7em;
+    height: 0.7em;
+    background-color:  #85f55c;
 }
 
 section.interview .question {
@@ -213,7 +228,7 @@ section.interview .interview-text h2 {
 }
 
 section.interview .interview-text h5 {
-    font-size: 11pt;
+    font-size: 1vw;
     text-align: justified;
     color: #85f55c;
     font-style: italic;
@@ -290,7 +305,7 @@ section.resume {
 }
 
 section.resume .download-link {
-    font-size: 22pt;
+    font-size: 2.5vw;
     font-weight: bold;
 }
 
@@ -308,7 +323,6 @@ section.resume a:hover {
 }
 
 section.resume .explanation {
-    font-size: 9pt;
     color: #ffb9e2;
     font-style: italic;
 }
@@ -555,7 +569,7 @@ div.resume {
 /* footer */
 footer {
     text-align: center;
-    font-size: 11pt;
+    font-size: 1.25vw;
     color: #b84139;
     font-style: italic;
     font-weight: bold;
