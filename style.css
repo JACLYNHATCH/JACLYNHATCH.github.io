@@ -70,6 +70,14 @@ html:after {
     background-color: #ff5ebf;
 }
 
+.ios-peek {
+    background-color: #ff5ebf;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+
 body {
     font-family: "Courier New", Courier, monospace;
 }
@@ -110,6 +118,7 @@ body::-webkit-scrollbar-thumb {
     margin: inherit;
     font-size: inherit;
 }
+
 
 /* header and contact information */
 header {
@@ -454,12 +463,9 @@ section.resume a {
     text-decoration: none;
 }
 
-section.resume a {
-    color: #ffffff;
-}
-
 section.resume a:hover {
-    color: #fe5dbd;
+    text-decoration: underline;
+    text-decoration-color: #fe5dbd;
 }
 
 section.resume .explanation {
@@ -467,6 +473,7 @@ section.resume .explanation {
     font-style: italic;
     margin-top: 0;
     padding-bottom: 2em;
+    font-size: 1.5vw;
 }
 
 section.resume .resume-image {
