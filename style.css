@@ -7,7 +7,6 @@
 /* media queries */
 @media screen and (max-width: 539px) {
     body {
-        width: 85% !important;
     }
 
     section.pitch {
@@ -39,7 +38,7 @@
         font-size: 10px !important;
     }
 
-    div.contact {
+    .contact {
         font-size: 1.15em !important;
     }
 }
@@ -75,8 +74,14 @@ html {
 
 body {
     font-family: "Courier New", Courier, monospace;
+    margin: 0 0;
+}
+
+header,
+main,
+footer {
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
 }
 
 body::-webkit-scrollbar {
@@ -126,24 +131,53 @@ header h1 {
     margin-top: 0;
 }
 
-header .contact {
+.contact {
     font-size: 0.8em;
 }
 
-header .contact h4 {
+.contact h4 {
     color: #ffb9e2;
     font-weight: normal;
     font-style: italic;
 }
 
-header .bullet {
+.bullet {
     font-style: normal;
 }
 
-h4.details i {
+a.phone i.fa-phone {
+    opacity: 0;
+    transform: translateX(1em);
+}
+a.phone {
+    position: relative;
+}
+
+a.phone:hover i.fa-phone {
+    opacity: 1;
+    transform: translateX(0em);
+    transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+}
+
+a.email i.fa-envelope {
+    opacity: 0;
+    transform: translateX(1em);
+}
+a.email {
+    position: relative;
+}
+
+a.email:hover i.fa-envelope {
+    opacity: 1;
+    transform: translateX(0em);
+    transition: transform 0.2s ease-in, opacity 0.2s ease-in;
+}
+
+h4.details i.fa-plane {
     animation: basicBounce 1s infinite;
 }
-h4.details:hover i {
+
+span.contact-location:hover i.fa-plane {
     animation: bounce 2s infinite;
 }
 
@@ -165,31 +199,33 @@ header .headline h2 {
     text-shadow: none;
 }
 
-header .contact h3.name {
+.contact h3.name {
     text-transform: uppercase;
     padding-bottom: 0.65em;
+    color: #ffffff;
+    text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
 }
 
 
-header .contact {
+.contact {
     width: 50%;
     display: flex;
     flex-direction: column;
     text-align: right;
 }
 
-header .contact h3,
-header .contact h4 {
+.contact h3,
+.contact h4 {
     margin: 0;
 }
 
-header .contact a.phone {
+.contact a.phone, a.email {
     text-decoration: none;
     color: #ffb9e2;
 }
 
-header .contact a.phone:hover,
-header .contact a.phone:active {
+.contact a.phone:hover, a.email:hover,
+.contact a.phone:active, a.email:active {
     color: #b280d6;
 }
 
