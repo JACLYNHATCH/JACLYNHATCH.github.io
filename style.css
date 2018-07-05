@@ -77,9 +77,9 @@ body {
     margin: 0 0;
 }
 
-header,
-main,
-footer {
+header.page,
+main.page,
+footer.page {
     margin: 0 auto;
     width: 80%;
 }
@@ -139,7 +139,9 @@ header h1 {
     color: #ffb9e2;
     font-weight: normal;
     font-style: italic;
+    padding-bottom: 0.25em;
 }
+
 
 .bullet {
     font-style: normal;
@@ -170,6 +172,7 @@ a.email {
 a.email:hover i.fa-envelope {
     opacity: 1;
     transform: translateX(0em);
+    color: white;
     transition: transform 0.2s ease-in, opacity 0.2s ease-in;
 }
 
@@ -226,7 +229,7 @@ header .headline h2 {
 
 .contact a.phone:hover, a.email:hover,
 .contact a.phone:active, a.email:active {
-    color: #b280d6;
+    color: white;
 }
 
 /* content sections */
@@ -306,11 +309,16 @@ section.interview .interview-text a {
 }
 
 @keyframes bounce {
-    from {
-        transform: translateX(0) translateY(0)
+    0% {
+        transform: translateX(0) translateY(0);
+        opacity: 1.0;
     }
-    to {
-        transform: translateX(30px) translateY(-30px)
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        transform: translateX(30px) translateY(-30px);
+        opacity: 0.0;
     }
 }
 
@@ -641,24 +649,24 @@ div.resume hr::before {
     background-color: #fff;
 }
 
-div.resume .resume-header .contact p {
+div.resume .resume-header .resume-contact p {
     margin: 0;
 }
 
-div.resume .resume-header .contact p.name {
+div.resume .resume-header .resume-contact p.name {
     font-weight: bold;
     font-size: 1.65em;
 }
 
-div.resume .resume-header .contact p.email {
+div.resume .resume-header .resume-contact p.email {
     font-style: italic;
 }
 
-div.resume .resume-header .contact p.phone a {
+div.resume .resume-header .resume-contact p.phone a {
     font-style: italic;
 }
 
-div.resume .resume-header .contact span.location {
+div.resume .resume-header .resume-contact span.location {
     font-style: italic;
 }
 
