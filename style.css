@@ -435,7 +435,7 @@ section.pitch {
     background-color: #626262;
     border: 5px solid #ff8f47;
     margin: 0 auto;
-    font-size: 2.15vw;
+    font-size: 2.35vw;
 }
 
 section.pitch .pitch-text {
@@ -445,10 +445,11 @@ section.pitch .pitch-text {
 
 section.pitch .pitch-posted {
     font-style: italic;
+    margin-bottom: 0;
 }
 
 section.resume {
-    padding-top: 4em;
+    padding-top: 9em;
     width: 90%;
     margin: 0 auto;
 }
@@ -615,6 +616,7 @@ ul.education li:first-of-type {
 ul.experience {
     list-style-type: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 ul.experience .title {
@@ -633,7 +635,7 @@ ul.experience li .date {
     font-style: italic;
 }
 
-ul.experience > li {
+ul.experience > li:not(:last-child) {
     padding-bottom: 1em;
 }
 
