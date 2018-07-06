@@ -534,6 +534,7 @@ section.video-portfolio .explanation {
     width: 50%;
     padding: 1em;
     margin-left: -2em;
+    margin-top: 0;
 }
 
 section.video-portfolio .explanation h2 {
@@ -545,6 +546,7 @@ section.video-portfolio .explanation h2 {
     padding-top: 0;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 0;
 }
 
 section.video-portfolio .explanation h2 {
@@ -559,6 +561,7 @@ section.video-portfolio .explanation p {
     padding-top: 1vw;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 1vw;
 }
 
 section.video-portfolio .explanation p {
