@@ -54,6 +54,18 @@ html {
     box-sizing: inherit;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body > div {
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
 html {
     background: #9a3400;
     background: -moz-linear-gradient(top, #9a3400 0%, #ff5ebf 100%);
@@ -91,7 +103,7 @@ footer.page {
     width: 80%;
 }
 
-body::-webkit-scrollbar {
+body > div::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 12px;
     background: #9a3400;
@@ -103,7 +115,7 @@ body::-webkit-scrollbar {
     background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
 }
  
-body::-webkit-scrollbar-thumb {
+body > div::-webkit-scrollbar-thumb {
     border-radius: 0;
     background-color: #85f55c;
     outline: 1px solid #708090;
