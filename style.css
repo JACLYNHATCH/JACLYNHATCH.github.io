@@ -196,6 +196,22 @@ a.email:hover i.fa-envelope {
     transition: transform 0.1s ease-in, opacity 0.1s ease-in;
 }
 
+
+a.footer-email i.fa-envelope {
+    opacity: 0;
+    transform: translateX(-1em);
+}
+a.footer-email {
+    position: relative;
+}
+
+a.footer-email:hover i.fa-envelope {
+    opacity: 1;
+    transform: translateX(0em);
+    color: white;
+    transition: transform 0.1s ease-in, opacity 0.1s ease-in;
+}
+
 h4.details i.fa-plane {
     animation: basicBounce 1s infinite;
     position: relative;
@@ -243,13 +259,13 @@ header .headline h2 {
     margin: 0;
 }
 
-.contact a.phone, a.email {
+.contact a.phone, a.email, a.footer-email {
     text-decoration: none;
     color: #ffb9e2;
 }
 
-.contact a.phone:hover, a.email:hover,
-.contact a.phone:active, a.email:active {
+.contact a.phone:hover, a.email:hover, a.footer-email:hover,
+.contact a.phone:active, a.email:active, a.footer-email:active {
     color: white;
 }
 
@@ -557,6 +573,12 @@ section.video-portfolio .explanation h2 {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 0;
+}
+
+section.video-portfolio .explanation h2,
+section.video-portfolio .explanation p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 section.video-portfolio .explanation h2 {
