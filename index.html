@@ -18,13 +18,6 @@
     <script type="text/javascript">
         function main() {
             window.removeEventListener('load', main, false);
-
-            document.body.addEventListener('touchmove', function(event) {
-                if(!event.target.classList.contains('site') 
-                && !event.target.classList.contains('aspect-ratio-box-inside')) {
-                    event.preventDefault();
-                }
-            });
         }
 
         window.addEventListener('load', main, false);
