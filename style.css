@@ -372,7 +372,7 @@ section.interview .interview-text a {
 }
 
 section.interview .interview-text .quod-erat-demonstrandum {
-    animation: blinking 0.5s infinite;
+    animation: blinking 0.35s infinite;
     animation-direction: alternate;
     transform: translate3d(0, 0, 0);
     will-change: auto;
