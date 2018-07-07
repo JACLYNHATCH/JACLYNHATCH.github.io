@@ -374,6 +374,19 @@ section.interview .interview-text a {
 section.interview .interview-text .quod-erat-demonstrandum {
     animation: blinking 0.35s infinite;
     animation-direction: alternate;
+    z-index: 0;
+    position: relative;
+}
+
+section.interview .interview-text .quod-erat-demonstrandum::after {
+    background-color: #855fa0;
+    display: inline-block;
+    content: '';
+    width: 1.25em;
+    height: 1.25em;
+    position: relative;
+    top: 2px;
+    z-index: 1;
 }
 
 section.interview .question {
