@@ -285,6 +285,11 @@ section.splash .splash-image {
     margin: 0px;
 }
 
+.splash-video, .workstation-video, .students-video {
+    width: 100%;
+    display: flex;
+}
+
 section.splash .explanation {
     text-align: right;
     font-style: italic;
