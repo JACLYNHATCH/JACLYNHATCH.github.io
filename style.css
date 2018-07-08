@@ -1117,6 +1117,18 @@ button[data-balloon] {
     width: 400px;
     margin: 0 auto;
   }
+
+  @keyframes blur-anim {
+      0% {
+          filter: blur(0px);
+      }
+      50% {
+          filter: blur(1px);
+      }
+      100% {
+          filter: blur(0px);
+      }
+  }
   
   @keyframes noise-anim {
     0% {
@@ -1186,8 +1198,8 @@ button[data-balloon] {
   .glitch:after {
     content: attr(data-text);
     position: absolute;
-    left: 2px;
-    text-shadow: -1px 0 red;
+    left: 4px;
+    text-shadow: -1px 0 #85f55c;
     top: 0;
     color: white;
     overflow: hidden;
@@ -1263,7 +1275,7 @@ button[data-balloon] {
   .glitch:before {
     content: attr(data-text);
     position: absolute;
-    left: -2px;
+    left: -4px;
     text-shadow: 1px 0 blue;
     top: 0;
     color: white;
