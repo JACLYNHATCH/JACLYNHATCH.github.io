@@ -457,6 +457,7 @@ section.interview .interview-text .quod-erat-demonstrandum {
             animation-direction: alternate;
     z-index: 0;
     -webkit-backface-visibility: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.015);
 }
 
 section.interview .question {
