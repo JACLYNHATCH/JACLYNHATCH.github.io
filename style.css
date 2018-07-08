@@ -1283,3 +1283,13 @@ button[data-balloon] {
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
   }
+
+::-moz-selection {
+    color: #cccccc;
+    background: #fe5dbd;
+}
+
+::selection {
+    color: #cccccc;
+    background: #fe5dbd;
+}
