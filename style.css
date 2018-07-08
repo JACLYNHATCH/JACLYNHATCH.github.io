@@ -1199,7 +1199,7 @@ button[data-balloon] {
     content: attr(data-text);
     position: absolute;
     left: 4px;
-    text-shadow: -1px 0 #85f55c;
+    text-shadow: -2px 0 #85f55c;
     top: 0;
     color: white;
     overflow: hidden;
