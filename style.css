@@ -452,11 +452,11 @@ section.interview .interview-text a {
 }
 
 section.interview .interview-text .quod-erat-demonstrandum {
-    -webkit-animation: blinking 0.35s infinite;
             animation: blinking 0.35s infinite;
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
     z-index: 0;
+    -webkit-backface-visibility: hidden;
 }
 
 section.interview .question {
