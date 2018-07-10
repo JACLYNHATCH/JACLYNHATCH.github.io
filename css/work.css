@@ -1,7 +1,7 @@
 /* define font face for code new roman */
 @font-face {
     font-family: "Code New Roman";
-    src: url("assets/Code New Roman.woff");
+    src: url("fonts/Code New Roman.woff");
 }
 
 html, body {
