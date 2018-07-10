@@ -265,15 +265,11 @@ header .headline h2 {
 
 .contact a.phone, a.email, a.footer-email, .footer-links a {
     text-decoration: none;
-    color: #b84139;
-}
-
-.footer-links a:hover {
     color: #ffb9e2;
 }
 
 .footer-links {
-    padding-top: 1em;
+   padding-top: 1em;
 }
 
 .contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover,

@@ -20,6 +20,10 @@ body > div {
     -webkit-overflow-scrolling: touch;
 }
 
+main.page {
+    padding-top: 3em;
+}
+
 div.content {
     border: 20px solid black;
 }
