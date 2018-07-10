@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     border: 0;
+    font-family: "Code New Roman", Courier New, monospace;
     margin: 0;
 }
 
@@ -47,4 +48,12 @@ a:hover {
 header a {
     font-family: "Code New Roman";
     font-size: 26pt;
+}
+
+section h2 {
+    font-size: 12px;
+}
+
+.page section {
+    padding-bottom: 3em;
 }
