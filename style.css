@@ -263,13 +263,13 @@ header .headline h2 {
     margin: 0;
 }
 
-.contact a.phone, a.email, a.footer-email {
+.contact a.phone, a.email, a.footer-email, .footer-links a {
     text-decoration: none;
     color: #ffb9e2;
 }
 
-.contact a.phone:hover, a.email:hover, a.footer-email:hover,
-.contact a.phone:active, a.email:active, a.footer-email:active {
+.contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover,
+.contact a.phone:active, a.email:active, .footer-links a:hover, a.footer-email:active {
     color: white;
 }
 
