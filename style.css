@@ -268,6 +268,10 @@ header .headline h2 {
     color: #ffb9e2;
 }
 
+.footer-links {
+    font-size: 1.25em;
+}
+
 .contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover,
 .contact a.phone:active, a.email:active, .footer-links a:hover, a.footer-email:active {
     color: white;
