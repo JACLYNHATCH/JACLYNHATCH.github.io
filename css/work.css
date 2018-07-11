@@ -37,6 +37,8 @@ footer.page {
 section div.image-section img {
     width: 100%;
     height: auto;
+    background-image: url("images/nope.png");
+    background-repeat: repeat;
 }
 
 a {
