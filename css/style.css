@@ -263,11 +263,12 @@ header .headline h2 {
     margin: 0;
 }
 
-.contact a.phone, a.email, a.footer-email, .footer-links a, .footer-notice a {
+.contact a.phone, a.email, a.footer-email, .footer-links a {
     text-decoration: none;
     color: #ffb9e2;
 }
 
+.footer-notice a,
 .footer-links a {
     color: #b84139;
 }
