@@ -263,7 +263,7 @@ header .headline h2 {
     margin: 0;
 }
 
-.contact a.phone, a.email, a.footer-email, .footer-links a {
+.contact a.phone, a.email, a.footer-email, .footer-links a, .footer-notice a {
     text-decoration: none;
     color: #ffb9e2;
 }
@@ -280,7 +280,7 @@ header .headline h2 {
    padding-top: 1em;
 }
 
-.contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover,
+.contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover, .footer-notice a:hover,
 .contact a.phone:active, a.email:active, .footer-links a:hover, a.footer-email:active {
     color: white;
 }
