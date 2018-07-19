@@ -133,7 +133,7 @@ header h1,
 header h2,
 header h3 {
     color: #ffffff;
-    text-shadow: 0 0 2px #fe5dbd, 2px 2px 3px #890000;
+    text-shadow: 0 0 0 #fe5dbd, 2px 2px 3px #890000;
 }
 
 header h1 {
