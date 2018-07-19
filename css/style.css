@@ -247,7 +247,7 @@ header .headline h2 {
     text-transform: uppercase;
     padding-bottom: 0.65em;
     color: #ffffff;
-    text-shadow: 0 0 2px #fe5dbd, 1px 1px 2px #fe5dbd;
+    text-shadow: 0 0 0 #fe5dbd, 1px 1px 2px #890000;
 }
 
 
@@ -282,7 +282,7 @@ header .headline h2 {
 }
 
 .contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover, .footer-notice a:hover,
-.contact a.phone:active, a.email:active, .footer-links a:hover, a.footer-email:active {
+.contact a.phone:active, a.email:active, a.footer-email:active {
     color: white;
 }
 
