@@ -1,1 +1,1 @@
-### Jaclyn Hatch – *Digital Resume*
+### *Digital Resume*
