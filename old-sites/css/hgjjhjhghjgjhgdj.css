@@ -1,0 +1,17 @@
+/* CSS Document */
+
+
+body { font-family: tahoma, verdana; font-size: 7.5pt; color: #5C5936; background-color: #5C5936; margin: 0px;
+}
+
+
+A
+{
+COLOR: #5C5936;FONT-FAMILY: tahoma, verdana;FONT-SIZE:7.5pt;
+TEXT-DECORATION:underline;
+}
+A:hover
+{
+COLOR:#BC949A; TEXT-DECORATION:none; cursor:n-resize; background-color:#4A3A20
+}
+

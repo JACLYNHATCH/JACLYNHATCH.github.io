@@ -1,0 +1,29 @@
+/* CSS Document */
+BODY
+{
+font-family:verdana;font-size:8pt;align:justify;
+{
+scrollbar-face-color: #7293AE;
+scrollbar-highlight-color: #ffffff;
+scrollbar-3dlight-color: #ffffff;
+scrollbar-darkshadow-color: #ffffff;
+scrollbar-shadow-color: #ffffff;
+scrollbar-arrow-color: #C5E6F6;
+scrollbar-track-color: #ffffff;
+}
+TD,FONT,P,I,B,U
+{
+color: #7293AE;align:center;font-family:verdana;font-size: 7.5pt;
+}
+
+b{color:#4A6369; font-size:7.5pt;}
+u{color:#DFB2CD; font size:28;}
+
+A
+{
+COLOR: #748A76;FONT-FAMILY:verdana;FONT-SIZE:7.5pt;
+TEXT-DECORATION:none;
+}
+A:hover
+{
+COLOR:#748A76; TEXT-DECORATION:none; cursor:move; background-color:#95B097}
