@@ -750,6 +750,10 @@ ul.experience li .job {
     font-weight: bold;
 }
 
+ul.experience li.sub-job {
+  margin-left: 1em;
+}
+
 ul.experience li .position {
     font-style: italic;
 }
