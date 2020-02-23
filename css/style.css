@@ -1116,12 +1116,17 @@ button[data-balloon] {
       white-space: normal;
       width: 100%; }
 
-/* borrow glitch effect from https://css-tricks.com/glitch-effect-text-images-svg/ */
-.glitch {
+  /* borrow glitch effect from https://css-tricks.com/glitch-effect-text-images-svg/ */
+  .glitch {
     color: white;
     position: relative;
     width: 400px;
     margin: 0 auto;
+  }
+
+  .glitch:last-of-type {
+    display: block;
+    margin: 0 0;
   }
 
   @-webkit-keyframes blur-anim {
