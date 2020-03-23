@@ -95,7 +95,7 @@ header.page,
 main.page,
 footer.page {
     margin: 0 auto;
-    width: 75%;
+    width: 70%;
 }
 
 body > div::-webkit-scrollbar {
