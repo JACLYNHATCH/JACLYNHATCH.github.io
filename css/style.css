@@ -302,6 +302,16 @@ section.splash .splash-image {
     margin: 0px;
 }
 
+section.splash .splash-image,
+section .interview-text,
+section .workstation-image,
+section.pitch,
+.resume-image,
+section .students-image,
+section .portfolio-image {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
 .splash-video, .workstation-video, .students-video {
     width: 100%;
     display: flex;
