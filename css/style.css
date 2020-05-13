@@ -273,6 +273,10 @@ header .headline h2 {
     color: #ffb9e2;
 }
 
+.footer-notice {
+    font-size: 1.125vw;
+}
+
 .footer-notice a,
 .footer-links a {
     color: #b84139;
