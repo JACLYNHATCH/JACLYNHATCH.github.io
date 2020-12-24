@@ -1,3 +1,4 @@
-*My Digital Resume*
-
-Special thanks to [James](https://jskarzin.org/) for bringing me up to speed w/ the times!
+*Luz do sol
+Que a folha traga e traduz
+Em verde novo
+Em folha, em graça, em vida, em força, em luz*
