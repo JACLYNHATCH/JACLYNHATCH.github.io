@@ -301,8 +301,8 @@ header .headline h2 {
   border: #d42027 solid 2px;
   border-radius: none;
   position: fixed;
-  min-width: 80%;
-  min-height: 50%;
+  max-width: 500px;
+  min-height: 500px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
