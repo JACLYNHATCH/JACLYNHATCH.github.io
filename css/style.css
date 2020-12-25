@@ -293,6 +293,7 @@ header .headline h2 {
 
 .modal {
   text-align: center;
+  font-size: 3vw;
   color: #d42027;
   display: flex;
   justify-content: center;
@@ -301,17 +302,14 @@ header .headline h2 {
   border: #d42027 solid 2px;
   border-radius: none;
   position: fixed;
-  max-width: 500px;
-  min-height: 500px;
+  width: 65%;
+  height: 43%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 3.14%;
   box-shadow: 14px 14px #d42027;
-  z-index: 1000;
-}
-.closed {
-  display: none;
+  z-index: 1001;
 }
 
 .modal-overlay {
