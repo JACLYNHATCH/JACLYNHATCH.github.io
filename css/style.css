@@ -68,9 +68,7 @@ body > div {
 }
 
 html {
-    background: #9a3400;
-    background: linear-gradient(to bottom, #9a3400 0%, #ff5ebf 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9a3400', endColorstr='#ff5ebf', GradientType=0);
+    background: #A2D68D;
     background-attachment: fixed;
 }
 
@@ -101,7 +99,7 @@ footer.page {
 
 body > div::-webkit-scrollbar {
     -webkit-appearance: none;
-    width: 12px;
+    width: 14px;
     background: #A2D68D;
     background: linear-gradient(to bottom, #A2D68D 0%, #A2D68D 100%);
 }
@@ -133,8 +131,8 @@ header {
 header h1,
 header h2,
 header h3 {
-    color: #d42027
-    text-shadow: 0 0 0 #fd42027, 2px 2px 3px #d42027;
+    color: #d42027;
+    text-shadow: 0 0 0 #d42027, 2px 2px 3px #d42027;
 }
 
 header h1 {
@@ -189,7 +187,7 @@ a.email:hover i.fa-envelope {
     opacity: 1;
     -webkit-transform: translateX(0em);
             transform: translateX(0em);
-    color: white;
+    color: #d42027;
     transition: opacity 0.1s ease-in, -webkit-transform 0.1s ease-in;
     transition: transform 0.1s ease-in, opacity 0.1s ease-in;
     transition: transform 0.1s ease-in, opacity 0.1s ease-in, -webkit-transform 0.1s ease-in;
@@ -209,7 +207,7 @@ a.footer-email:hover i.fa-envelope {
     opacity: 1;
     -webkit-transform: translateX(0em);
             transform: translateX(0em);
-    color: white;
+    color: #d42027;
     transition: opacity 0.1s ease-in, -webkit-transform 0.1s ease-in;
     transition: transform 0.1s ease-in, opacity 0.1s ease-in;
     transition: transform 0.1s ease-in, opacity 0.1s ease-in, -webkit-transform 0.1s ease-in;
@@ -248,7 +246,7 @@ header .headline h2 {
     text-transform: uppercase;
     padding-bottom: 0.65em;
     color: #d42027;
-    text-shadow: 0 0 0 #fe5dbd, 1px 1px 2px #d42027;
+    text-shadow: 0 0 0 #d42027, 1px 1px 2px #d42027;
 }
 
 
@@ -288,7 +286,7 @@ header .headline h2 {
 
 .contact a.phone:hover, a.email:hover, .footer-links a:hover, a.footer-email:hover, .footer-notice a:hover,
 .contact a.phone:active, a.email:active, a.footer-email:active {
-    color: white;
+    color: #d42027;
 }
 
 /* content sections */
@@ -302,11 +300,12 @@ section img:not(.yt-playlist) {
 }
 
 body, html, * {
+    /*cursor: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMywgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIKCSB2aWV3Qm94PSIwIDAgMjggMjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI4IDI4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cgkuc3Qxe2ZpbGw6I0NDQ0NDQztzdHJva2U6I0RGMjg3NDtzdHJva2Utd2lkdGg6MC41O3N0cm9rZS1taXRlcmxpbWl0OjEwO30KPC9zdHlsZT4KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI4LjIsMjAuOSA4LjIsNC45IDE5LjgsMTYuNSAxMywxNi41IDEyLjYsMTYuNiAiLz4KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxNy4zLDIxLjYgMTMuNywyMy4xIDksMTIgMTIuNywxMC41ICIvPgo8cG9seWdvbiBjbGFzcz0ic3QxIiBwb2ludHM9IjE3LjQsMTUuNSA5LjIsNy4zIDkuMiwxOC41IDExLjgsMTYgMTQuMSwyMS43IDE2LDIwLjkgMTMuNywxNS41ICIvPgo8L3N2Zz4K'), auto;*/
 }
 
 section.splash .splash-image {
-    background-color: #d42027;
-    border: 5px solid #d42027;
+    background-color: #A2D68D;
+    border: 3px solid #d42027;
     margin: 0px;
 }
 
@@ -317,7 +316,7 @@ section.pitch,
 .resume-image,
 section .students-image,
 section .portfolio-image {
-    box-shadow: 2px 2px 8px rgba(137, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .splash-video, .workstation-video, .students-video {
@@ -348,9 +347,9 @@ section.interview .interview-text {
     font-size: 1vw;
     text-align: justified;
     color: #d42027;
-    background-color: none;
+    background-color: #A2D68D;
     padding: 5vw;
-    border: 5px solid #d42027
+    border: 3px solid #d42027;
     margin: 0px;
 }
 
@@ -506,7 +505,7 @@ section.interview div.answer:last-child {
 
 section.interview .interview-text h2 {
     font-size: 2vw; 
-    text-shadow: 0 0 3px #d42027, 1px 1px 3px #d42027
+    text-shadow: 0 0 3px #d42027, 1px 1px 3px #d42027;
     color: #d42027;
     margin-top: 0;
 }
@@ -547,12 +546,12 @@ section.workstation {
 
 section.workstation .workstation-image {
     color: #d42027;
-    background-color: #d42027;
-    border: 5px solid #d42027;
+    background-color: #A2D68D;
+    border: 3px solid #d42027;
 }
 
 section.workstation .explanation {
-    text-align:     right;  
+    text-align: right;  
     font-style: italic; 
     padding-bottom: 7em;
 }   
@@ -565,8 +564,8 @@ section.pitch {
     width: 90%;
     color: #d42027;
     text-shadow: 1px 1px 3px #d42027;
-    background-color: none;
-    border: 5px solid #d42027;
+    background-color: #A2D68D;
+    border: 3px solid #d42027;
     margin: 0 auto;
     font-size: 2.35vw;
 }
@@ -616,7 +615,7 @@ section.resume .resume-image {
     font-size: 18pt;
     text-align: left;
     background-color: #d42027;
-    border: 5px solid #d42027;
+    border: 3px solid #d42027;
     margin: 0px;
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
@@ -635,7 +634,7 @@ section.students .students-image {
     font-size: 18pt;
     text-align: left;
     background-color: #d42027;
-    border: 5px solid #d42027;
+    border: 3px solid #d42027;
     margin: 0px;
 }
 
@@ -671,7 +670,7 @@ section.video-portfolio .explanation {
 }
 
 section.video-portfolio .explanation h2 {
-    color: white;
+    color: #d42027;
     padding-top: 2em;
     font-weight: 700;
     font-size: 22pt;
@@ -722,7 +721,7 @@ section.video-portfolio .portfolio-image {
 }
 
 section.video-portfolio .portfolio-image img {
-    border: 5px solid #d42027;
+    border: 3px solid #d42027;
 }
 
 section.video-portfolio > div.explanation {
@@ -815,7 +814,7 @@ div.resume hr::before {
     position: relative;
     content: ' ';
     height: 0.3vw;
-    background-color: #fff;
+    background-color: #A2D68D;
 }
 
 div.resume .resume-header .resume-contact p {
@@ -862,7 +861,7 @@ div.resume {
 
 .aspect-ratio-box ::-webkit-scrollbar {
     -webkit-appearance: none;
-    width: 5px;
+    width: 8px;
     background-color: #A2D68D !important;
 
 }
@@ -906,7 +905,7 @@ button[data-balloon] {
       font-size: 12px !important;
       background: rgba(17, 17, 17, 0.9);
       border-radius: 4px;
-      color: #fff;
+      color: #d42027;
       content: attr(data-balloon);
       padding: .5em 1em;
       position: absolute;
@@ -1138,7 +1137,7 @@ button[data-balloon] {
 
   /* borrow glitch effect from https://css-tricks.com/glitch-effect-text-images-svg/ */
   .glitch {
-    color: white;
+    color: #d42027;
     position: relative;
     width: 400px;
     margin: 0 auto;
@@ -1316,7 +1315,7 @@ button[data-balloon] {
     left: 4px;
     text-shadow: -5px 0 #d42027;
     top: 0;
-    color: white;
+    color: #A2D68D;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim 2s infinite linear alternate-reverse;
@@ -1459,7 +1458,7 @@ button[data-balloon] {
     left: -4px;
     text-shadow: 5px 0 blue;
     top: 0;
-    color: white;
+    color: #d42027;
     overflow: hidden;
     clip: rect(0, 900px, 0, 0);
     animation: noise-anim-2 3s infinite linear alternate-reverse;
