@@ -132,7 +132,7 @@ header h1,
 header h2,
 header h3 {
     color: #d42027;
-    text-shadow: 0 0 0 #d42027, 2px 2px 3px #d42027;
+    text-shadow: 0 0 0 #A2D68D, 2px 2px 3px #A2D68D;
 }
 
 header h1 {
@@ -246,7 +246,7 @@ header .headline h2 {
     text-transform: uppercase;
     padding-bottom: 0.65em;
     color: #d42027;
-    text-shadow: 0 0 0 #d42027, 1px 1px 2px #d42027;
+    text-shadow: 0 0 0 #A2D68D, 1px 1px 2px #A2D68D;
 }
 
 
@@ -290,6 +290,40 @@ header .headline h2 {
 }
 
 /* content sections */
+
+.modal {
+  text-align: center;
+  color: #d42027;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #A2D68D;
+  border: #d42027 solid 2px;
+  border-radius: none;
+  position: fixed;
+  min-width: 80%;
+  min-height: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3.14%;
+  box-shadow: 14px 14px #d42027;
+  z-index: 1000;
+}
+.closed {
+  display: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 section {
     width: 100%;
 }
@@ -300,12 +334,11 @@ section img:not(.yt-playlist) {
 }
 
 body, html, * {
-    /*cursor: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMywgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIKCSB2aWV3Qm94PSIwIDAgMjggMjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI4IDI4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cgkuc3Qxe2ZpbGw6I0NDQ0NDQztzdHJva2U6I0RGMjg3NDtzdHJva2Utd2lkdGg6MC41O3N0cm9rZS1taXRlcmxpbWl0OjEwO30KPC9zdHlsZT4KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSI4LjIsMjAuOSA4LjIsNC45IDE5LjgsMTYuNSAxMywxNi41IDEyLjYsMTYuNiAiLz4KPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxNy4zLDIxLjYgMTMuNywyMy4xIDksMTIgMTIuNywxMC41ICIvPgo8cG9seWdvbiBjbGFzcz0ic3QxIiBwb2ludHM9IjE3LjQsMTUuNSA5LjIsNy4zIDkuMiwxOC41IDExLjgsMTYgMTQuMSwyMS43IDE2LDIwLjkgMTMuNywxNS41ICIvPgo8L3N2Zz4K'), auto;*/
 }
 
 section.splash .splash-image {
     background-color: #A2D68D;
-    border: 3px solid #d42027;
+    border: 2px solid #d42027;
     margin: 0px;
 }
 
@@ -349,7 +382,7 @@ section.interview .interview-text {
     color: #d42027;
     background-color: #A2D68D;
     padding: 5vw;
-    border: 3px solid #d42027;
+    border: 2px solid #d42027;
     margin: 0px;
 }
 
@@ -505,7 +538,7 @@ section.interview div.answer:last-child {
 
 section.interview .interview-text h2 {
     font-size: 2vw; 
-    text-shadow: 0 0 3px #d42027, 1px 1px 3px #d42027;
+    text-shadow: 0 0 3px #A2D68D, 1px 1px 3px #A2D68D;
     color: #d42027;
     margin-top: 0;
 }
@@ -563,9 +596,9 @@ section.pitch {
     flex-direction: column;
     width: 90%;
     color: #d42027;
-    text-shadow: 1px 1px 3px #d42027;
+    text-shadow: 1px 1px 3px #A2D68D;
     background-color: #A2D68D;
-    border: 3px solid #d42027;
+    border: 2px solid #d42027;
     margin: 0 auto;
     font-size: 2.35vw;
 }
@@ -614,8 +647,8 @@ section.resume .resume-image {
     color: #d42027;
     font-size: 18pt;
     text-align: left;
-    background-color: #d42027;
-    border: 3px solid #d42027;
+    background-color: #A2D68D;
+    border: 2px solid #d42027;
     margin: 0px;
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
@@ -633,8 +666,8 @@ section.students .students-image {
     color: #d42027;
     font-size: 18pt;
     text-align: left;
-    background-color: #d42027;
-    border: 3px solid #d42027;
+    background-color: #A2D68D;
+    border: 2px solid #d42027;
     margin: 0px;
 }
 
@@ -721,7 +754,7 @@ section.video-portfolio .portfolio-image {
 }
 
 section.video-portfolio .portfolio-image img {
-    border: 3px solid #d42027;
+    border: 2px solid #d42027;
 }
 
 section.video-portfolio > div.explanation {
@@ -861,14 +894,14 @@ div.resume {
 
 .aspect-ratio-box ::-webkit-scrollbar {
     -webkit-appearance: none;
-    width: 8px;
+    width: 14px;
     background-color: #A2D68D !important;
 
 }
  
 .aspect-ratio-box ::-webkit-scrollbar-thumb {
     border-radius: 0;
-    background-color: #A2D68D !important;
+    background-color: #d42027 !important;
     outline: 1px solid #d42027;
 
 }
@@ -904,7 +937,7 @@ button[data-balloon] {
       text-shadow: none !important;
       font-size: 12px !important;
       background: rgba(17, 17, 17, 0.9);
-      border-radius: 4px;
+      border-radius: 2px;
       color: #d42027;
       content: attr(data-balloon);
       padding: .5em 1em;
@@ -1456,7 +1489,7 @@ button[data-balloon] {
     content: attr(data-text);
     position: absolute;
     left: -4px;
-    text-shadow: 5px 0 blue;
+    text-shadow: 5px 0 #d42027;
     top: 0;
     color: #d42027;
     overflow: hidden;
