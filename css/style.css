@@ -47,24 +47,24 @@ body {
 body > div::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 14px;
-    background: #A2D68D;
-    background: linear-gradient(to bottom, #A2D68D 0%, #A2D68D 100%);
+    background: none;
 }
  
 body > div::-webkit-scrollbar-thumb {
-    border-radius: 0;
-    background-color: #d42027;
-    outline: 1px solid #d42027;
+    border-radius: none;
+    background-color: #98C984;
+    outline: 1px solid #A2D68D;
 }
 
 .modal {
-  padding: 12vw;
+  padding: 1em;
   display: flex;
   text-align: center;
   flex-direction: column;
   width: 65%;
+  height: 65%;
   color: #d42027;
-  text-shadow: 1px 1px 3px #A2D68D;
+  text-shadow: 0px 0px 0px #98C984;
   background-color: #A2D68D;
   border: 2px solid #d42027;
   box-shadow: 14px 14px #d42027;
@@ -76,9 +76,8 @@ body > div::-webkit-scrollbar-thumb {
   margin-bottom: 0;
   justify-content: center;
   align-items: center;
-  border-radius: none;
+  border-radius: 0px;
   position: fixed;
-  height: 43%;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -114,21 +113,32 @@ body > div::-webkit-scrollbar-thumb {
 section {
     width: 100%;
 }
- 
 
 section.welcome {
-    padding: 12vw;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    width: 90%;
-    color: #d42027;
-    margin: 0 auto;
-    font-size: 2.35vw;
-    font-weight: bold;
-    overflow-wrap: break-word;
-    font-style: italic;
-    margin-bottom: 0;
+  padding: 1em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 65%;
+  height: 65%;
+  color: #98C984;
+  text-shadow: 0px 0px 0px #98C984;
+  background-color: #A2D68D;
+  border: 2px solid #98C984;
+  box-shadow: 14px 14px #98C984;
+  margin: 0 auto;
+  font-size: 2.7vw;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  font-style: italic;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 ::-moz-selection {
